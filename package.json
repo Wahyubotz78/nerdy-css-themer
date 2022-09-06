@@ -1,0 +1,21 @@
+{
+  "name": "nerdy-css-themer",
+  "version": "1.0.0",
+  "description": "A tool to extract CSS colors and easily theme the website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "NerdyDev",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css": "^5.3.1",
+    "css-tree": "^2.2.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0"
+  }
+}

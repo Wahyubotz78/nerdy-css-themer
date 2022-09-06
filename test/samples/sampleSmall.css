@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: auto;
+    color: #fff;
+    background-color: #000;
+}
+
+.class {
+    border-top: 1px solid #ff0000;
+}
+
+svg.fill {
+    fill: rgba(120, 100, 255, 0.2);
+}
