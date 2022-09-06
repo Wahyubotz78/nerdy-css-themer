@@ -6,13 +6,15 @@ A tool to extract CSS colors and easily theme the website
 - Removes everything that does not affect colors
 - Extracts all the colors to variables under `:root` for easier editing
 - Makes the new colors and rules `!important` for easier injection
-- To be used with combination with Chrome extensions
+- Removes unused CSS and optimizes the file
+- Beautifies the final theme file
+> To be used with combination with Chrome extensions
 
 ## How To
 - Find a website to recolor
 - Download the css file
 - Import the module
-> You can also just use the `npm run test` if you wanna quickly modify the file
+> You can also just use the `npm run test` if you want to quickly modify the file
 - Modify the `.css` file
 - Edit the colors to your liking in the newly generated stylesheet
 > You can inject stylesheets in Chrome extensions and make some cool skins
@@ -26,3 +28,8 @@ A tool to extract CSS colors and easily theme the website
 
 ## Demo
 > Run `npm run test` and see the `nerdy-css-themer/test/out` directory. It will contan new and old versions of both CSS and AST files. AST is there just for learning and demo purposes.
+
+### Before:
+![Before](demo/before.png)
+### After:
+![After](demo/after.png)
