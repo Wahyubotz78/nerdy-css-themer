@@ -24,8 +24,8 @@ export function removeChildren(parentNode, predicate, recursive = true) {
 }
 
 export function getChildren(parentNode) {
-    if(parentNode.children !== undefined) return parentNode.children;
-    if(parentNode.block !== undefined) return parentNode.block.children;
+    if(parentNode.children) return parentNode.children;
+    if(parentNode.block) return parentNode.block.children;
     return [];
 }
 
