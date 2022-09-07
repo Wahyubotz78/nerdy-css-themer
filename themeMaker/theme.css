@@ -1,0 +1,3922 @@
+@charset "UTF-8";
+:root {
+  --nerdy-css-themer-color-1: #000000FF!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-2: #000000B3!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-21: #000000CC!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-22: #000000E6!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-33: #0000001A!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-54: #000000FF!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-61: #00000082!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-62: #000000C7!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-89: #00000033!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-92: #000000F2!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-133: #00000026!important; /*! white light monochrome modified */
+  --nerdy-css-themer-color-26: #1A1A1AFF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-116: #1C1C1CFF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-16: #FFFFFFFF!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-19: #FFFFFF2E!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-20: #FFFFFF1A!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-30: #FFFFFF4D!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-35: #FFFFFF80!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-36: #FFFFFF99!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-38: #FFFFFF13!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-46: #FFFFFF2D!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-60: #FFFFFFB8!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-91: #FFFFFFCC!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-94: #FFFFFF33!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-96: #FFFFFF26!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-97: #FFFFFFF2!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-101: #FFFFFFFF!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-103: #FFFFFF66!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-105: #FFFFFF00!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-108: #FFFFFF59!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-111: #FFFFFF00!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-112: #FFFFFF40!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-115: #FFFFFF0D!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-160: #FFFFFF20!important; /*! black dark monochrome modified */
+  --nerdy-css-themer-color-107: #1E1E1EFF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-7: #222222FF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-146: #2A2A2AFF!important; /*! lightgray light monochrome grays modified */
+  --nerdy-css-themer-color-47: #2B2B2BFF!important; /*! lightgray light monochrome grays modified */
+  --nerdy-css-themer-color-95: #323232FF!important; /*! lightgray light monochrome grays modified */
+  --nerdy-css-themer-color-186: #060606FF!important; /*! ghostwhite light monochrome grays modified */
+  --nerdy-css-themer-color-159: #070707FF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-45: #333333FF!important; /*! lightgray light monochrome grays modified */
+  --nerdy-css-themer-color-59: #414141FF!important; /*! silver light monochrome grays modified */
+  --nerdy-css-themer-color-114: #080808FF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-24: #0A0A0AFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-29: #515151FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-178: #525252FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-104: #555555FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-10: #5D5D5DFF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-154: #626262FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-98: #656565FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-43: #0B0B0BFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-11: #0C0C0CFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-8: #666666FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-32: #676767FF!important; /*! darkgray light monochrome grays modified */
+  --nerdy-css-themer-color-177: #737373FF!important; /*! gray light monochrome grays modified */
+  --nerdy-css-themer-color-158: #777777FF!important; /*! gray light monochrome grays modified */
+  --nerdy-css-themer-color-90: #0D0D0DFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-25: #0E0E0EFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-102: #0F0F0FFF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-57: #878787FF!important; /*! gray dark monochrome grays modified */
+  --nerdy-css-themer-color-64: #888888FF!important; /*! gray dark monochrome grays modified */
+  --nerdy-css-themer-color-179: #8C8C8CFF!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-48: #111111FF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-49: #111111FF!important; /*! whitesmoke light monochrome grays modified */
+  --nerdy-css-themer-color-15: #999999FF!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-152: #A1A1A1FF!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-53: #AAAAAAFF!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-39: #ABABAB80!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-40: #ABABABA6!important; /*! dimgray dark monochrome grays modified */
+  --nerdy-css-themer-color-113: #141414FF!important; /*! lavender light monochrome grays modified */
+  --nerdy-css-themer-color-6: #BBBBBBFF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-50: #C5C5C5FF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-13: #CCCCCCFF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-42: #CECECEFF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-161: #D9D9D9FF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-63: #DADADAFF!important; /*! darkslategray dark monochrome grays modified */
+  --nerdy-css-themer-color-31: #DDDDDDFF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-58: #DDDDDDFF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-34: #DEDEDEFF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-185: #171717FF!important; /*! lavender light monochrome grays modified */
+  --nerdy-css-themer-color-157: #181818FF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-55: #191919FF!important; /*! gainsboro light monochrome grays modified */
+  --nerdy-css-themer-color-79: #E6E6E6FF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-156: #EFEFEFFF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-155: #F7F7F7FF!important; /*! black dark monochrome grays modified */
+  --nerdy-css-themer-color-68: #171515FF!important; /*! black dark */
+  --nerdy-css-themer-color-118: #F2DEDEFF!important; /*! mistyrose light */
+  --nerdy-css-themer-color-128: #EBCCCCFF!important; /*! pink light */
+  --nerdy-css-themer-color-189: #E4B9B9FF!important; /*! lightpink light */
+  --nerdy-css-themer-color-14: #F16464FF!important; /*! tomato light */
+  --nerdy-css-themer-color-51: #F56363FF!important; /*! tomato light */
+  --nerdy-css-themer-color-138: #843534FF!important; /*! brown dark */
+  --nerdy-css-themer-color-180: #CE8483FF!important; /*! rosybrown light */
+  --nerdy-css-themer-color-9: #A94442FF!important; /*! sienna dark */
+  --nerdy-css-themer-color-147: #C9302CFF!important; /*! firebrick dark */
+  --nerdy-css-themer-color-134: #D9534FFF!important; /*! indianred dark */
+  --nerdy-css-themer-color-164: #AC2925FF!important; /*! brown dark */
+  --nerdy-css-themer-color-163: #761C19FF!important; /*! maroon dark */
+  --nerdy-css-themer-color-162: #D43F3AFF!important; /*! crimson dark */
+  --nerdy-css-themer-color-192: #C1E2B3FF!important; /*! silver light */
+  --nerdy-css-themer-color-126: #DFF0D8FF!important; /*! gainsboro light */
+  --nerdy-css-themer-color-131: #D0E9C6FF!important; /*! lightgray light */
+  --nerdy-css-themer-color-44: #C5C7C5FF!important; /*! silver light */
+  --nerdy-css-themer-color-171: #4CAE4CFF!important; /*! mediumseagreen light */
+  --nerdy-css-themer-color-137: #5CB85CFF!important; /*! mediumseagreen light */
+  --nerdy-css-themer-color-150: #449D44FF!important; /*! seagreen light */
+  --nerdy-css-themer-color-173: #398439FF!important; /*! seagreen dark */
+  --nerdy-css-themer-color-172: #255625FF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-182: #67B168FF!important; /*! mediumseagreen light */
+  --nerdy-css-themer-color-37: #3C763DFF!important; /*! darkolivegreen dark */
+  --nerdy-css-themer-color-144: #2B542CFF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-106: #0F9E5EFF!important; /*! seagreen dark */
+  --nerdy-css-themer-color-70: #126567FF!important; /*! teal dark */
+  --nerdy-css-themer-color-143: #A6E1ECFF!important; /*! powderblue light */
+  --nerdy-css-themer-color-122: #BCE8F1FF!important; /*! paleturquoise light */
+  --nerdy-css-themer-color-18: #09C4F2FF!important; /*! deepskyblue light */
+  --nerdy-css-themer-color-56: #3F95ABFF!important; /*! steelblue light */
+  --nerdy-css-themer-color-149: #31B0D5FF!important; /*! mediumturquoise light */
+  --nerdy-css-themer-color-169: #1B6D85FF!important; /*! teal dark */
+  --nerdy-css-themer-color-170: #269ABCFF!important; /*! lightseagreen light */
+  --nerdy-css-themer-color-136: #5BC0DEFF!important; /*! mediumturquoise light */
+  --nerdy-css-themer-color-168: #46B8DAFF!important; /*! mediumturquoise light */
+  --nerdy-css-themer-color-85: #00AFF0FF!important; /*! deepskyblue light */
+  --nerdy-css-themer-color-87: #00ACEEFF!important; /*! deepskyblue light */
+  --nerdy-css-themer-color-65: #1E8CBEFF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-109: #2098D1FF!important; /*! dodgerblue light */
+  --nerdy-css-themer-color-110: #2098D1BF!important; /*! dodgerblue light */
+  --nerdy-css-themer-color-84: #0E76A8FF!important; /*! darkcyan dark */
+  --nerdy-css-themer-color-123: #31708FFF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-28: #A6A8A9FF!important; /*! darkgray light */
+  --nerdy-css-themer-color-99: #F7F9FAFF!important; /*! ghostwhite light */
+  --nerdy-css-themer-color-142: #245269FF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-191: #AFD9EEFF!important; /*! lightblue light */
+  --nerdy-css-themer-color-124: #D9EDF7FF!important; /*! lavender light */
+  --nerdy-css-themer-color-130: #C4E3F3FF!important; /*! powderblue light */
+  --nerdy-css-themer-color-80: #86C9EFFF!important; /*! skyblue light */
+  --nerdy-css-themer-color-3: #367FA9FF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-76: #00588BFF!important; /*! teal dark */
+  --nerdy-css-themer-color-4: #3C8DBCFF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-27: #676A6CFF!important; /*! dimgray dark */
+  --nerdy-css-themer-color-183: #66AFE999!important; /*! cornflowerblue light */
+  --nerdy-css-themer-color-184: #66AFE9FF!important; /*! cornflowerblue light */
+  --nerdy-css-themer-color-78: #3F729BFF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-132: #C7DDEFFF!important; /*! powderblue light */
+  --nerdy-css-themer-color-73: #3D9AE8FF!important; /*! cornflowerblue light */
+  --nerdy-css-themer-color-175: #122B40FF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-151: #286090FF!important; /*! darkslateblue dark */
+  --nerdy-css-themer-color-127: #337AB7FF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-176: #204D74FF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-174: #2E6DA4FF!important; /*! steelblue dark */
+  --nerdy-css-themer-color-153: #23527CFF!important; /*! darkslateblue dark */
+  --nerdy-css-themer-color-81: #34526FFF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-52: #F6F8FAFF!important; /*! ghostwhite light */
+  --nerdy-css-themer-color-100: #191B1DFF!important; /*! black dark */
+  --nerdy-css-themer-color-17: #354A6BFF!important; /*! darkslategray dark */
+  --nerdy-css-themer-color-41: #0F1726E6!important; /*! black dark */
+  --nerdy-css-themer-color-5: #D2D6DEFF!important; /*! lightgray light */
+  --nerdy-css-themer-color-88: #3B5998FF!important; /*! darkslateblue dark */
+  --nerdy-css-themer-color-69: #053EFFFF!important; /*! blue dark */
+  --nerdy-css-themer-color-66: #6567A5FF!important; /*! slategray dark */
+  --nerdy-css-themer-color-83: #EE802FFF!important; /*! peru light */
+  --nerdy-css-themer-color-71: #FF7700FF!important; /*! darkorange light */
+  --nerdy-css-themer-color-75: #720E9EFF!important; /*! darkmagenta dark */
+  --nerdy-css-themer-color-77: #FF0084FF!important; /*! deeppink dark */
+  --nerdy-css-themer-color-72: #EA4C89FF!important; /*! palevioletred dark */
+  --nerdy-css-themer-color-93: #F9AA3FFF!important; /*! sandybrown light */
+  --nerdy-css-themer-color-187: #F9F2F4FF!important; /*! whitesmoke light */
+  --nerdy-css-themer-color-188: #C7254EFF!important; /*! crimson dark */
+  --nerdy-css-themer-color-148: #EC971FFF!important; /*! goldenrod light */
+  --nerdy-css-themer-color-135: #F0AD4EFF!important; /*! sandybrown light */
+  --nerdy-css-themer-color-165: #EEA236FF!important; /*! goldenrod light */
+  --nerdy-css-themer-color-167: #D58512FF!important; /*! darkgoldenrod light */
+  --nerdy-css-themer-color-166: #985F0DFF!important; /*! saddlebrown dark */
+  --nerdy-css-themer-color-139: #E4B9C0FF!important; /*! lightpink light */
+  --nerdy-css-themer-color-117: #EBCCD1FF!important; /*! thistle light */
+  --nerdy-css-themer-color-82: #C8232CFF!important; /*! firebrick dark */
+  --nerdy-css-themer-color-120: #8A6D3BFF!important; /*! sienna dark */
+  --nerdy-css-themer-color-181: #C0A16BFF!important; /*! darkkhaki light */
+  --nerdy-css-themer-color-140: #66512CFF!important; /*! darkolivegreen dark */
+  --nerdy-css-themer-color-141: #F7E1B5FF!important; /*! wheat light */
+  --nerdy-css-themer-color-119: #FAEBCCFF!important; /*! blanchedalmond light */
+  --nerdy-css-themer-color-12: #E4A50EFF!important; /*! goldenrod light */
+  --nerdy-css-themer-color-129: #FAF2CCFF!important; /*! blanchedalmond light */
+  --nerdy-css-themer-color-190: #F7ECB5FF!important; /*! moccasin light */
+  --nerdy-css-themer-color-121: #FCF8E3FF!important; /*! oldlace light */
+  --nerdy-css-themer-color-86: #DD4B39FF!important; /*! chocolate dark */
+  --nerdy-css-themer-color-193: #FFFF00FF!important; /*! yellow light */
+  --nerdy-css-themer-color-74: #A4C639FF!important; /*! yellowgreen light */
+  --nerdy-css-themer-color-67: #F74425FF!important; /*! orangered dark */
+  --nerdy-css-themer-color-23: #A8D84BFF!important; /*! yellowgreen light */
+  --nerdy-css-themer-color-145: #C9E2B3FF!important; /*! lightgray light */
+  --nerdy-css-themer-color-125: #D6E9C6FF !important; /*! lightgray light */
+  
+}
+mark {
+  color: var(--nerdy-css-themer-color-16)!important;
+  background: var(--nerdy-css-themer-color-193)!important
+}
+@media print {
+  *,
+  :after,
+  :before {
+    color: var(--nerdy-css-themer-color-16)!important
+  }
+  blockquote,
+  pre {
+    border: 1px solid var(--nerdy-css-themer-color-8)!important
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: var(--nerdy-css-themer-color-16)!important
+  }
+  .label {
+    border: 1px solid var(--nerdy-css-themer-color-16)!important
+  }
+  .table td,
+  .table th {
+    background-color: var(--nerdy-css-themer-color-1)!important
+  }
+  .table-bordered td,
+  .table-bordered th {
+    border: 1px solid var(--nerdy-css-themer-color-7)!important
+  }
+}
+body {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+a {
+  color: var(--nerdy-css-themer-color-127)!important
+}
+a:focus,
+a:hover {
+  color: var(--nerdy-css-themer-color-153)!important
+}
+.img-thumbnail {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+hr {
+  border-top: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.mark,
+mark {
+  background-color: var(--nerdy-css-themer-color-121)!important
+}
+.text-muted {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.text-primary {
+  color: var(--nerdy-css-themer-color-127)!important
+}
+a.text-primary:focus,
+a.text-primary:hover {
+  color: var(--nerdy-css-themer-color-151)!important
+}
+.text-success {
+  color: var(--nerdy-css-themer-color-37)!important
+}
+a.text-success:focus,
+a.text-success:hover {
+  color: var(--nerdy-css-themer-color-144)!important
+}
+.text-info {
+  color: var(--nerdy-css-themer-color-123)!important
+}
+a.text-info:focus,
+a.text-info:hover {
+  color: var(--nerdy-css-themer-color-142)!important
+}
+.text-warning {
+  color: var(--nerdy-css-themer-color-120)!important
+}
+a.text-warning:focus,
+a.text-warning:hover {
+  color: var(--nerdy-css-themer-color-140)!important
+}
+.text-danger {
+  color: var(--nerdy-css-themer-color-9)!important
+}
+a.text-danger:focus,
+a.text-danger:hover {
+  color: var(--nerdy-css-themer-color-138)!important
+}
+.bg-primary {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important
+}
+a.bg-primary:focus,
+a.bg-primary:hover {
+  background-color: var(--nerdy-css-themer-color-151)!important
+}
+.bg-success {
+  background-color: var(--nerdy-css-themer-color-126)!important
+}
+a.bg-success:focus,
+a.bg-success:hover {
+  background-color: var(--nerdy-css-themer-color-192)!important
+}
+.bg-info {
+  background-color: var(--nerdy-css-themer-color-124)!important
+}
+a.bg-info:focus,
+a.bg-info:hover {
+  background-color: var(--nerdy-css-themer-color-191)!important
+}
+.bg-warning {
+  background-color: var(--nerdy-css-themer-color-121)!important
+}
+a.bg-warning:focus,
+a.bg-warning:hover {
+  background-color: var(--nerdy-css-themer-color-190)!important
+}
+.bg-danger {
+  background-color: var(--nerdy-css-themer-color-118)!important
+}
+a.bg-danger:focus,
+a.bg-danger:hover {
+  background-color: var(--nerdy-css-themer-color-189)!important
+}
+.page-header {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+abbr[data-original-title],
+abbr[title] {
+  border-bottom: 1px dotted var(--nerdy-css-themer-color-64)!important
+}
+blockquote {
+  border-left: 5px solid var(--nerdy-css-themer-color-49)!important
+}
+blockquote .small,
+blockquote footer,
+blockquote small {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  border-right: 5px solid var(--nerdy-css-themer-color-49)!important
+}
+code {
+  color: var(--nerdy-css-themer-color-188)!important;
+  background-color: var(--nerdy-css-themer-color-187)!important
+}
+kbd {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-13)!important;
+  box-shadow: inset 0-1px 0 var(--nerdy-css-themer-color-112)!important
+}
+pre {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  border: 1px solid var(--nerdy-css-themer-color-45)!important
+}
+caption {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.table > thead > tr > th {
+  border-bottom: 2px solid var(--nerdy-css-themer-color-7)!important
+}
+.table > tbody + tbody {
+  border-top: 2px solid var(--nerdy-css-themer-color-7)!important
+}
+.table .table {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.table-bordered {
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: var(--nerdy-css-themer-color-186)!important
+}
+.table-hover > tbody > tr:hover {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr.active:hover > th,
+.table-hover > tbody > tr:hover > .active {
+  background-color: var(--nerdy-css-themer-color-185)!important
+}
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > td.success,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr.success > td,
+.table > tfoot > tr.success > th,
+.table > thead > tr > td.success,
+.table > thead > tr > th.success,
+.table > thead > tr.success > td,
+.table > thead > tr.success > th {
+  background-color: var(--nerdy-css-themer-color-126)!important
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr.success:hover > th,
+.table-hover > tbody > tr:hover > .success {
+  background-color: var(--nerdy-css-themer-color-131)!important
+}
+.table > tbody > tr > td.info,
+.table > tbody > tr > th.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tfoot > tr > td.info,
+.table > tfoot > tr > th.info,
+.table > tfoot > tr.info > td,
+.table > tfoot > tr.info > th,
+.table > thead > tr > td.info,
+.table > thead > tr > th.info,
+.table > thead > tr.info > td,
+.table > thead > tr.info > th {
+  background-color: var(--nerdy-css-themer-color-124)!important
+}
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr.info:hover > th,
+.table-hover > tbody > tr:hover > .info {
+  background-color: var(--nerdy-css-themer-color-130)!important
+}
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th,
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > thead > tr.warning > th {
+  background-color: var(--nerdy-css-themer-color-121)!important
+}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr.warning:hover > th,
+.table-hover > tbody > tr:hover > .warning {
+  background-color: var(--nerdy-css-themer-color-129)!important
+}
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > td.danger,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr.danger > td,
+.table > tfoot > tr.danger > th,
+.table > thead > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > thead > tr.danger > th {
+  background-color: var(--nerdy-css-themer-color-118)!important
+}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr.danger:hover > th,
+.table-hover > tbody > tr:hover > .danger {
+  background-color: var(--nerdy-css-themer-color-128)!important
+}
+@media screen and (max-width:767px) {
+  .table-responsive {
+    border: 1px solid var(--nerdy-css-themer-color-7)!important
+  }
+}
+legend {
+  color: var(--nerdy-css-themer-color-13)!important;
+  border-bottom: 1px solid var(--nerdy-css-themer-color-26)!important
+}
+output {
+  color: var(--nerdy-css-themer-color-53)!important
+}
+.form-control {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-45)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38)!important
+}
+.form-control:focus {
+  border-color: var(--nerdy-css-themer-color-184)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38),0 0 8px var(--nerdy-css-themer-color-183)!important
+}
+.form-control::-moz-placeholder {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.form-control:-ms-input-placeholder {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.form-control::-webkit-input-placeholder {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.has-success .checkbox,
+.has-success .checkbox-inline,
+.has-success .control-label,
+.has-success .help-block,
+.has-success .radio,
+.has-success .radio-inline,
+.has-success.checkbox label,
+.has-success.checkbox-inline label,
+.has-success.radio label,
+.has-success.radio-inline label {
+  color: var(--nerdy-css-themer-color-37)!important
+}
+.has-success .form-control {
+  border-color: var(--nerdy-css-themer-color-37)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38)!important
+}
+.has-success .form-control:focus {
+  border-color: var(--nerdy-css-themer-color-144)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38),0 0 6px var(--nerdy-css-themer-color-182)!important
+}
+.has-success .input-group-addon {
+  color: var(--nerdy-css-themer-color-37)!important;
+  background-color: var(--nerdy-css-themer-color-126)!important;
+  border-color: var(--nerdy-css-themer-color-37)!important
+}
+.has-success .form-control-feedback {
+  color: var(--nerdy-css-themer-color-37)!important
+}
+.has-warning .checkbox,
+.has-warning .checkbox-inline,
+.has-warning .control-label,
+.has-warning .help-block,
+.has-warning .radio,
+.has-warning .radio-inline,
+.has-warning.checkbox label,
+.has-warning.checkbox-inline label,
+.has-warning.radio label,
+.has-warning.radio-inline label {
+  color: var(--nerdy-css-themer-color-120)!important
+}
+.has-warning .form-control {
+  border-color: var(--nerdy-css-themer-color-120)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38)!important
+}
+.has-warning .form-control:focus {
+  border-color: var(--nerdy-css-themer-color-140)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38),0 0 6px var(--nerdy-css-themer-color-181)!important
+}
+.has-warning .input-group-addon {
+  color: var(--nerdy-css-themer-color-120)!important;
+  background-color: var(--nerdy-css-themer-color-121)!important;
+  border-color: var(--nerdy-css-themer-color-120)!important
+}
+.has-warning .form-control-feedback {
+  color: var(--nerdy-css-themer-color-120)!important
+}
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+  color: var(--nerdy-css-themer-color-9)!important
+}
+.has-error .form-control {
+  border-color: var(--nerdy-css-themer-color-9)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38)!important
+}
+.has-error .form-control:focus {
+  border-color: var(--nerdy-css-themer-color-138)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38),0 0 6px var(--nerdy-css-themer-color-180)!important
+}
+.has-error .input-group-addon {
+  color: var(--nerdy-css-themer-color-9)!important;
+  background-color: var(--nerdy-css-themer-color-118)!important;
+  border-color: var(--nerdy-css-themer-color-9)!important
+}
+.has-error .form-control-feedback {
+  color: var(--nerdy-css-themer-color-9)!important
+}
+.help-block {
+  color: var(--nerdy-css-themer-color-179)!important
+}
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.btn.active,
+.btn:active {
+  box-shadow: inset 0 3px 5px var(--nerdy-css-themer-color-160)!important
+}
+.btn-default {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border-color: var(--nerdy-css-themer-color-45)!important
+}
+.btn-default.focus,
+.btn-default:focus {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-55)!important;
+  border-color: var(--nerdy-css-themer-color-177)!important
+}
+.btn-default:hover {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-55)!important;
+  border-color: var(--nerdy-css-themer-color-178)!important
+}
+.btn-default.active,
+.btn-default:active,
+.open > .dropdown-toggle.btn-default {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-55)!important;
+  border-color: var(--nerdy-css-themer-color-178)!important
+}
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-47)!important;
+  border-color: var(--nerdy-css-themer-color-177)!important
+}
+.btn-default.disabled.focus,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled].focus,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border-color: var(--nerdy-css-themer-color-45)!important
+}
+.btn-default .badge {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.btn-primary {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  border-color: var(--nerdy-css-themer-color-174)!important
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-151)!important;
+  border-color: var(--nerdy-css-themer-color-175)!important
+}
+.btn-primary:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-151)!important;
+  border-color: var(--nerdy-css-themer-color-176)!important
+}
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-151)!important;
+  border-color: var(--nerdy-css-themer-color-176)!important
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-176)!important;
+  border-color: var(--nerdy-css-themer-color-175)!important
+}
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  border-color: var(--nerdy-css-themer-color-174)!important
+}
+.btn-primary .badge {
+  color: var(--nerdy-css-themer-color-127)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-success {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-137)!important;
+  border-color: var(--nerdy-css-themer-color-171)!important
+}
+.btn-success.focus,
+.btn-success:focus {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-150)!important;
+  border-color: var(--nerdy-css-themer-color-172)!important
+}
+.btn-success:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-150)!important;
+  border-color: var(--nerdy-css-themer-color-173)!important
+}
+.btn-success.active,
+.btn-success:active,
+.open > .dropdown-toggle.btn-success {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-150)!important;
+  border-color: var(--nerdy-css-themer-color-173)!important
+}
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open > .dropdown-toggle.btn-success.focus,
+.open > .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-173)!important;
+  border-color: var(--nerdy-css-themer-color-172)!important
+}
+.btn-success.disabled.focus,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled].focus,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success.focus,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
+  background-color: var(--nerdy-css-themer-color-137)!important;
+  border-color: var(--nerdy-css-themer-color-171)!important
+}
+.btn-success .badge {
+  color: var(--nerdy-css-themer-color-137)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-info {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-136)!important;
+  border-color: var(--nerdy-css-themer-color-168)!important
+}
+.btn-info.focus,
+.btn-info:focus {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-149)!important;
+  border-color: var(--nerdy-css-themer-color-169)!important
+}
+.btn-info:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-149)!important;
+  border-color: var(--nerdy-css-themer-color-170)!important
+}
+.btn-info.active,
+.btn-info:active,
+.open > .dropdown-toggle.btn-info {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-149)!important;
+  border-color: var(--nerdy-css-themer-color-170)!important
+}
+.btn-info.active.focus,
+.btn-info.active:focus,
+.btn-info.active:hover,
+.btn-info:active.focus,
+.btn-info:active:focus,
+.btn-info:active:hover,
+.open > .dropdown-toggle.btn-info.focus,
+.open > .dropdown-toggle.btn-info:focus,
+.open > .dropdown-toggle.btn-info:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-170)!important;
+  border-color: var(--nerdy-css-themer-color-169)!important
+}
+.btn-info.disabled.focus,
+.btn-info.disabled:focus,
+.btn-info.disabled:hover,
+.btn-info[disabled].focus,
+.btn-info[disabled]:focus,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info.focus,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info:hover {
+  background-color: var(--nerdy-css-themer-color-136)!important;
+  border-color: var(--nerdy-css-themer-color-168)!important
+}
+.btn-info .badge {
+  color: var(--nerdy-css-themer-color-136)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-warning {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-135)!important;
+  border-color: var(--nerdy-css-themer-color-165)!important
+}
+.btn-warning.focus,
+.btn-warning:focus {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-148)!important;
+  border-color: var(--nerdy-css-themer-color-166)!important
+}
+.btn-warning:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-148)!important;
+  border-color: var(--nerdy-css-themer-color-167)!important
+}
+.btn-warning.active,
+.btn-warning:active,
+.open > .dropdown-toggle.btn-warning {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-148)!important;
+  border-color: var(--nerdy-css-themer-color-167)!important
+}
+.btn-warning.active.focus,
+.btn-warning.active:focus,
+.btn-warning.active:hover,
+.btn-warning:active.focus,
+.btn-warning:active:focus,
+.btn-warning:active:hover,
+.open > .dropdown-toggle.btn-warning.focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.open > .dropdown-toggle.btn-warning:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-167)!important;
+  border-color: var(--nerdy-css-themer-color-166)!important
+}
+.btn-warning.disabled.focus,
+.btn-warning.disabled:focus,
+.btn-warning.disabled:hover,
+.btn-warning[disabled].focus,
+.btn-warning[disabled]:focus,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning.focus,
+fieldset[disabled] .btn-warning:focus,
+fieldset[disabled] .btn-warning:hover {
+  background-color: var(--nerdy-css-themer-color-135)!important;
+  border-color: var(--nerdy-css-themer-color-165)!important
+}
+.btn-warning .badge {
+  color: var(--nerdy-css-themer-color-135)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-danger {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-134)!important;
+  border-color: var(--nerdy-css-themer-color-162)!important
+}
+.btn-danger.focus,
+.btn-danger:focus {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-147)!important;
+  border-color: var(--nerdy-css-themer-color-163)!important
+}
+.btn-danger:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-147)!important;
+  border-color: var(--nerdy-css-themer-color-164)!important
+}
+.btn-danger.active,
+.btn-danger:active,
+.open > .dropdown-toggle.btn-danger {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-147)!important;
+  border-color: var(--nerdy-css-themer-color-164)!important
+}
+.btn-danger.active.focus,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.btn-danger:active.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover,
+.open > .dropdown-toggle.btn-danger.focus,
+.open > .dropdown-toggle.btn-danger:focus,
+.open > .dropdown-toggle.btn-danger:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-164)!important;
+  border-color: var(--nerdy-css-themer-color-163)!important
+}
+.btn-danger.disabled.focus,
+.btn-danger.disabled:focus,
+.btn-danger.disabled:hover,
+.btn-danger[disabled].focus,
+.btn-danger[disabled]:focus,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger.focus,
+fieldset[disabled] .btn-danger:focus,
+fieldset[disabled] .btn-danger:hover {
+  background-color: var(--nerdy-css-themer-color-134)!important;
+  border-color: var(--nerdy-css-themer-color-162)!important
+}
+.btn-danger .badge {
+  color: var(--nerdy-css-themer-color-134)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-link {
+  color: var(--nerdy-css-themer-color-127)!important
+}
+.btn-link:focus,
+.btn-link:hover {
+  color: var(--nerdy-css-themer-color-153)!important
+}
+.btn-link[disabled]:focus,
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:focus,
+fieldset[disabled] .btn-link:hover {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.dropdown-menu {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-45)!important;
+  border: 1px solid var(--nerdy-css-themer-color-96)!important;
+  box-shadow: 0 6px 12px var(--nerdy-css-themer-color-46)!important
+}
+.dropdown-menu .divider {
+  background-color: var(--nerdy-css-themer-color-26)!important
+}
+.dropdown-menu > li > a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  color: var(--nerdy-css-themer-color-161)!important;
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:focus,
+.dropdown-menu > .disabled > a:hover {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.dropdown-header {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.btn-group.open .dropdown-toggle {
+  box-shadow: inset 0 3px 5px var(--nerdy-css-themer-color-160)!important
+}
+.input-group-addon {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-49)!important;
+  border: 1px solid var(--nerdy-css-themer-color-45)!important
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.nav > li.disabled > a {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.nav > li.disabled > a:focus,
+.nav > li.disabled > a:hover {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background-color: var(--nerdy-css-themer-color-49)!important;
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.nav .nav-divider {
+  background-color: var(--nerdy-css-themer-color-26)!important
+}
+.nav-tabs {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.nav-tabs > li > a:hover {
+  border-color: var(--nerdy-css-themer-color-49) var(--nerdy-css-themer-color-49) var(--nerdy-css-themer-color-7)!important
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:focus,
+.nav-tabs.nav-justified > .active > a:hover {
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+@media (min-width:768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid var(--nerdy-css-themer-color-7)!important
+  }
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:hover {
+    border-bottom-color: var(--nerdy-css-themer-color-1)!important
+  }
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important
+}
+.nav-tabs-justified > .active > a,
+.nav-tabs-justified > .active > a:focus,
+.nav-tabs-justified > .active > a:hover {
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+@media (min-width:768px) {
+  .nav-tabs-justified > li > a {
+    border-bottom: 1px solid var(--nerdy-css-themer-color-7)!important
+  }
+  .nav-tabs-justified > .active > a,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs-justified > .active > a:hover {
+    border-bottom-color: var(--nerdy-css-themer-color-1)!important
+  }
+}
+.navbar-collapse {
+  box-shadow: inset 0 1px 0 var(--nerdy-css-themer-color-33)!important
+}
+.navbar-form {
+  box-shadow: inset 0 1px 0 var(--nerdy-css-themer-color-33),0 1px 0 var(--nerdy-css-themer-color-33)!important
+}
+.navbar-default {
+  background-color: var(--nerdy-css-themer-color-159)!important;
+  border-color: var(--nerdy-css-themer-color-157)!important
+}
+.navbar-default .navbar-brand {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: var(--nerdy-css-themer-color-152)!important
+}
+.navbar-default .navbar-text {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-default .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-157)!important
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:focus,
+.navbar-default .navbar-nav > .disabled > a:hover {
+  color: var(--nerdy-css-themer-color-45)!important
+}
+.navbar-default .navbar-toggle {
+  border-color: var(--nerdy-css-themer-color-7)!important
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: var(--nerdy-css-themer-color-7)!important
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: var(--nerdy-css-themer-color-158)!important
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: var(--nerdy-css-themer-color-157)!important
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-157)!important
+}
+@media (max-width:767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: var(--nerdy-css-themer-color-64)!important
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: var(--nerdy-css-themer-color-13)!important
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: var(--nerdy-css-themer-color-53)!important;
+    background-color: var(--nerdy-css-themer-color-157)!important
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    color: var(--nerdy-css-themer-color-45)!important
+  }
+}
+.navbar-default .navbar-link {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-default .navbar-link:hover {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-default .btn-link {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-default .btn-link:focus,
+.navbar-default .btn-link:hover {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-default .btn-link[disabled]:focus,
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:focus,
+fieldset[disabled] .navbar-default .btn-link:hover {
+  color: var(--nerdy-css-themer-color-45)!important
+}
+.navbar-inverse {
+  background-color: var(--nerdy-css-themer-color-31)!important;
+  border-color: var(--nerdy-css-themer-color-155)!important
+}
+.navbar-inverse .navbar-brand {
+  color: var(--nerdy-css-themer-color-154)!important
+}
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.navbar-inverse .navbar-text {
+  color: var(--nerdy-css-themer-color-154)!important
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-154)!important
+}
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-155)!important
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:focus,
+.navbar-inverse .navbar-nav > .disabled > a:hover {
+  color: var(--nerdy-css-themer-color-6)!important
+}
+.navbar-inverse .navbar-toggle {
+  border-color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: var(--nerdy-css-themer-color-156)!important
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-155)!important
+}
+@media (max-width:767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: var(--nerdy-css-themer-color-155)!important
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: var(--nerdy-css-themer-color-155)!important
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: var(--nerdy-css-themer-color-154)!important
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: var(--nerdy-css-themer-color-1)!important
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: var(--nerdy-css-themer-color-1)!important;
+    background-color: var(--nerdy-css-themer-color-155)!important
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    color: var(--nerdy-css-themer-color-6)!important
+  }
+}
+.navbar-inverse .navbar-link {
+  color: var(--nerdy-css-themer-color-154)!important
+}
+.navbar-inverse .navbar-link:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.navbar-inverse .btn-link {
+  color: var(--nerdy-css-themer-color-154)!important
+}
+.navbar-inverse .btn-link:focus,
+.navbar-inverse .btn-link:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.navbar-inverse .btn-link[disabled]:focus,
+.navbar-inverse .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:focus,
+fieldset[disabled] .navbar-inverse .btn-link:hover {
+  color: var(--nerdy-css-themer-color-6)!important
+}
+.breadcrumb {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.breadcrumb > li + li:before {
+  color: var(--nerdy-css-themer-color-45)!important
+}
+.breadcrumb > .active {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: var(--nerdy-css-themer-color-127)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: var(--nerdy-css-themer-color-153)!important;
+  background-color: var(--nerdy-css-themer-color-49)!important;
+  border-color: var(--nerdy-css-themer-color-7)!important
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover {
+  color: var(--nerdy-css-themer-color-64)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border-color: var(--nerdy-css-themer-color-7)!important
+}
+.pager li > a,
+.pager li > span {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.pager li > a:focus,
+.pager li > a:hover {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.pager .disabled > a,
+.pager .disabled > a:focus,
+.pager .disabled > a:hover,
+.pager .disabled > span {
+  color: var(--nerdy-css-themer-color-64)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.label {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+a.label:focus,
+a.label:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.label-default {
+  background-color: var(--nerdy-css-themer-color-64)!important
+}
+.label-default[href]:focus,
+.label-default[href]:hover {
+  background-color: var(--nerdy-css-themer-color-152)!important
+}
+.label-primary {
+  background-color: var(--nerdy-css-themer-color-127)!important
+}
+.label-primary[href]:focus,
+.label-primary[href]:hover {
+  background-color: var(--nerdy-css-themer-color-151)!important
+}
+.label-success {
+  background-color: var(--nerdy-css-themer-color-137)!important
+}
+.label-success[href]:focus,
+.label-success[href]:hover {
+  background-color: var(--nerdy-css-themer-color-150)!important
+}
+.label-info {
+  background-color: var(--nerdy-css-themer-color-136)!important
+}
+.label-info[href]:focus,
+.label-info[href]:hover {
+  background-color: var(--nerdy-css-themer-color-149)!important
+}
+.label-warning {
+  background-color: var(--nerdy-css-themer-color-135)!important
+}
+.label-warning[href]:focus,
+.label-warning[href]:hover {
+  background-color: var(--nerdy-css-themer-color-148)!important
+}
+.label-danger {
+  background-color: var(--nerdy-css-themer-color-134)!important
+}
+.label-danger[href]:focus,
+.label-danger[href]:hover {
+  background-color: var(--nerdy-css-themer-color-147)!important
+}
+.badge {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-64)!important
+}
+a.badge:focus,
+a.badge:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: var(--nerdy-css-themer-color-127)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.jumbotron {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.jumbotron > hr {
+  border-top-color: var(--nerdy-css-themer-color-146)!important
+}
+.thumbnail {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+a.thumbnail.active,
+a.thumbnail:focus,
+a.thumbnail:hover {
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.thumbnail .caption {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.alert-success {
+  color: var(--nerdy-css-themer-color-37)!important;
+  background-color: var(--nerdy-css-themer-color-126)!important;
+  border-color: var(--nerdy-css-themer-color-125)!important
+}
+.alert-success hr {
+  border-top-color: var(--nerdy-css-themer-color-145)!important
+}
+.alert-success .alert-link {
+  color: var(--nerdy-css-themer-color-144)!important
+}
+.alert-info {
+  color: var(--nerdy-css-themer-color-123)!important;
+  background-color: var(--nerdy-css-themer-color-124)!important;
+  border-color: var(--nerdy-css-themer-color-122)!important
+}
+.alert-info hr {
+  border-top-color: var(--nerdy-css-themer-color-143)!important
+}
+.alert-info .alert-link {
+  color: var(--nerdy-css-themer-color-142)!important
+}
+.alert-warning {
+  color: var(--nerdy-css-themer-color-120)!important;
+  background-color: var(--nerdy-css-themer-color-121)!important;
+  border-color: var(--nerdy-css-themer-color-119)!important
+}
+.alert-warning hr {
+  border-top-color: var(--nerdy-css-themer-color-141)!important
+}
+.alert-warning .alert-link {
+  color: var(--nerdy-css-themer-color-140)!important
+}
+.alert-danger {
+  color: var(--nerdy-css-themer-color-9)!important;
+  background-color: var(--nerdy-css-themer-color-118)!important;
+  border-color: var(--nerdy-css-themer-color-117)!important
+}
+.alert-danger hr {
+  border-top-color: var(--nerdy-css-themer-color-139)!important
+}
+.alert-danger .alert-link {
+  color: var(--nerdy-css-themer-color-138)!important
+}
+.progress {
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  box-shadow: inset 0 1px 2px var(--nerdy-css-themer-color-20)!important
+}
+.progress-bar {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  box-shadow: inset 0-1px 0 var(--nerdy-css-themer-color-96)!important
+}
+.progress-bar-striped,
+.progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: -o-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important
+}
+.progress-bar-success {
+  background-color: var(--nerdy-css-themer-color-137)!important
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: -o-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important
+}
+.progress-bar-info {
+  background-color: var(--nerdy-css-themer-color-136)!important
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: -o-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important
+}
+.progress-bar-warning {
+  background-color: var(--nerdy-css-themer-color-135)!important
+}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: -o-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important
+}
+.progress-bar-danger {
+  background-color: var(--nerdy-css-themer-color-134)!important
+}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: -o-linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important;
+  background-image: linear-gradient(45deg,var(--nerdy-css-themer-color-133) 25%,transparent 25%,transparent 50%,var(--nerdy-css-themer-color-133) 50%,var(--nerdy-css-themer-color-133) 75%,transparent 75%,transparent)!important
+}
+.list-group-item {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+a.list-group-item,
+button.list-group-item {
+  color: var(--nerdy-css-themer-color-53)!important
+}
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+  color: var(--nerdy-css-themer-color-53)!important;
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.list-group-item.disabled,
+.list-group-item.disabled:focus,
+.list-group-item.disabled:hover {
+  color: var(--nerdy-css-themer-color-64)!important;
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.list-group-item.disabled .list-group-item-text,
+.list-group-item.disabled:focus .list-group-item-text,
+.list-group-item.disabled:hover .list-group-item-text {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
+  color: var(--nerdy-css-themer-color-132)!important
+}
+.list-group-item-success {
+  color: var(--nerdy-css-themer-color-37)!important;
+  background-color: var(--nerdy-css-themer-color-126)!important
+}
+a.list-group-item-success,
+button.list-group-item-success {
+  color: var(--nerdy-css-themer-color-37)!important
+}
+a.list-group-item-success:focus,
+a.list-group-item-success:hover,
+button.list-group-item-success:focus,
+button.list-group-item-success:hover {
+  color: var(--nerdy-css-themer-color-37)!important;
+  background-color: var(--nerdy-css-themer-color-131)!important
+}
+a.list-group-item-success.active,
+a.list-group-item-success.active:focus,
+a.list-group-item-success.active:hover,
+button.list-group-item-success.active,
+button.list-group-item-success.active:focus,
+button.list-group-item-success.active:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-37)!important;
+  border-color: var(--nerdy-css-themer-color-37)!important
+}
+.list-group-item-info {
+  color: var(--nerdy-css-themer-color-123)!important;
+  background-color: var(--nerdy-css-themer-color-124)!important
+}
+a.list-group-item-info,
+button.list-group-item-info {
+  color: var(--nerdy-css-themer-color-123)!important
+}
+a.list-group-item-info:focus,
+a.list-group-item-info:hover,
+button.list-group-item-info:focus,
+button.list-group-item-info:hover {
+  color: var(--nerdy-css-themer-color-123)!important;
+  background-color: var(--nerdy-css-themer-color-130)!important
+}
+a.list-group-item-info.active,
+a.list-group-item-info.active:focus,
+a.list-group-item-info.active:hover,
+button.list-group-item-info.active,
+button.list-group-item-info.active:focus,
+button.list-group-item-info.active:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-123)!important;
+  border-color: var(--nerdy-css-themer-color-123)!important
+}
+.list-group-item-warning {
+  color: var(--nerdy-css-themer-color-120)!important;
+  background-color: var(--nerdy-css-themer-color-121)!important
+}
+a.list-group-item-warning,
+button.list-group-item-warning {
+  color: var(--nerdy-css-themer-color-120)!important
+}
+a.list-group-item-warning:focus,
+a.list-group-item-warning:hover,
+button.list-group-item-warning:focus,
+button.list-group-item-warning:hover {
+  color: var(--nerdy-css-themer-color-120)!important;
+  background-color: var(--nerdy-css-themer-color-129)!important
+}
+a.list-group-item-warning.active,
+a.list-group-item-warning.active:focus,
+a.list-group-item-warning.active:hover,
+button.list-group-item-warning.active,
+button.list-group-item-warning.active:focus,
+button.list-group-item-warning.active:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-120)!important;
+  border-color: var(--nerdy-css-themer-color-120)!important
+}
+.list-group-item-danger {
+  color: var(--nerdy-css-themer-color-9)!important;
+  background-color: var(--nerdy-css-themer-color-118)!important
+}
+a.list-group-item-danger,
+button.list-group-item-danger {
+  color: var(--nerdy-css-themer-color-9)!important
+}
+a.list-group-item-danger:focus,
+a.list-group-item-danger:hover,
+button.list-group-item-danger:focus,
+button.list-group-item-danger:hover {
+  color: var(--nerdy-css-themer-color-9)!important;
+  background-color: var(--nerdy-css-themer-color-128)!important
+}
+a.list-group-item-danger.active,
+a.list-group-item-danger.active:focus,
+a.list-group-item-danger.active:hover,
+button.list-group-item-danger.active,
+button.list-group-item-danger.active:focus,
+button.list-group-item-danger.active:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-9)!important;
+  border-color: var(--nerdy-css-themer-color-9)!important
+}
+.panel {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  box-shadow: 0 1px 1px var(--nerdy-css-themer-color-115)!important
+}
+.panel-footer {
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  border-top: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive,
+.panel > .table + .panel-body,
+.panel > .table-responsive + .panel-body {
+  border-top: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.panel-default {
+  border-color: var(--nerdy-css-themer-color-7)!important
+}
+.panel-default > .panel-heading {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  border-color: var(--nerdy-css-themer-color-7)!important
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-7)!important
+}
+.panel-default > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-24)!important;
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-7)!important
+}
+.panel-primary {
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.panel-primary > .panel-heading {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-127)!important;
+  border-color: var(--nerdy-css-themer-color-127)!important
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-127)!important
+}
+.panel-primary > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-127)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-127)!important
+}
+.panel-success {
+  border-color: var(--nerdy-css-themer-color-125)!important
+}
+.panel-success > .panel-heading {
+  color: var(--nerdy-css-themer-color-37)!important;
+  background-color: var(--nerdy-css-themer-color-126)!important;
+  border-color: var(--nerdy-css-themer-color-125)!important
+}
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-125)!important
+}
+.panel-success > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-126)!important;
+  background-color: var(--nerdy-css-themer-color-37)!important
+}
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-125)!important
+}
+.panel-info {
+  border-color: var(--nerdy-css-themer-color-122)!important
+}
+.panel-info > .panel-heading {
+  color: var(--nerdy-css-themer-color-123)!important;
+  background-color: var(--nerdy-css-themer-color-124)!important;
+  border-color: var(--nerdy-css-themer-color-122)!important
+}
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-122)!important
+}
+.panel-info > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-124)!important;
+  background-color: var(--nerdy-css-themer-color-123)!important
+}
+.panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-122)!important
+}
+.panel-warning {
+  border-color: var(--nerdy-css-themer-color-119)!important
+}
+.panel-warning > .panel-heading {
+  color: var(--nerdy-css-themer-color-120)!important;
+  background-color: var(--nerdy-css-themer-color-121)!important;
+  border-color: var(--nerdy-css-themer-color-119)!important
+}
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-119)!important
+}
+.panel-warning > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-121)!important;
+  background-color: var(--nerdy-css-themer-color-120)!important
+}
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-119)!important
+}
+.panel-danger {
+  border-color: var(--nerdy-css-themer-color-117)!important
+}
+.panel-danger > .panel-heading {
+  color: var(--nerdy-css-themer-color-9)!important;
+  background-color: var(--nerdy-css-themer-color-118)!important;
+  border-color: var(--nerdy-css-themer-color-117)!important
+}
+.panel-danger > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--nerdy-css-themer-color-117)!important
+}
+.panel-danger > .panel-heading .badge {
+  color: var(--nerdy-css-themer-color-118)!important;
+  background-color: var(--nerdy-css-themer-color-9)!important
+}
+.panel-danger > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: var(--nerdy-css-themer-color-117)!important
+}
+.well {
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  border: 1px solid var(--nerdy-css-themer-color-116)!important;
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-115)!important
+}
+.well blockquote {
+  border-color: var(--nerdy-css-themer-color-7)!important;
+  border-color: var(--nerdy-css-themer-color-96)!important
+}
+.close {
+  color: var(--nerdy-css-themer-color-16)!important;
+  text-shadow: 0 1px 0var(--nerdy-css-themer-color-1)!important
+}
+.close:focus,
+.close:hover {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.modal-content {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-8)!important;
+  border: 1px solid var(--nerdy-css-themer-color-94)!important;
+  box-shadow: 0 3px 9px var(--nerdy-css-themer-color-35)!important
+}
+.modal-backdrop {
+  background-color: var(--nerdy-css-themer-color-16)!important
+}
+.modal-header {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-26)!important
+}
+.modal-footer {
+  border-top: 1px solid var(--nerdy-css-themer-color-26)!important
+}
+@media (min-width:768px) {
+  .modal-content {
+    box-shadow: 0 5px 15px var(--nerdy-css-themer-color-35)!important
+  }
+}
+.tooltip-inner {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.top-right .tooltip-arrow {
+  border-top-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.bottom-left .tooltip-arrow {
+  border-bottom-color: var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.bottom-right .tooltip-arrow {
+  border-bottom-color: var(--nerdy-css-themer-color-16)!important
+}
+.popover {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-45)!important;
+  border: 1px solid var(--nerdy-css-themer-color-94)!important;
+  box-shadow: 0 5px 10px var(--nerdy-css-themer-color-94)!important
+}
+.popover-title {
+  background-color: var(--nerdy-css-themer-color-114)!important;
+  border-bottom: 1px solid var(--nerdy-css-themer-color-113)!important
+}
+.popover.top > .arrow {
+  border-top-color: var(--nerdy-css-themer-color-8)!important;
+  border-top-color: var(--nerdy-css-themer-color-112)!important
+}
+.popover.top > .arrow:after {
+  border-top-color: var(--nerdy-css-themer-color-1)!important
+}
+.popover.right > .arrow {
+  border-right-color: var(--nerdy-css-themer-color-8)!important;
+  border-right-color: var(--nerdy-css-themer-color-112)!important
+}
+.popover.right > .arrow:after {
+  border-right-color: var(--nerdy-css-themer-color-1)!important
+}
+.popover.bottom > .arrow {
+  border-bottom-color: var(--nerdy-css-themer-color-8)!important;
+  border-bottom-color: var(--nerdy-css-themer-color-112)!important
+}
+.popover.bottom > .arrow:after {
+  border-bottom-color: var(--nerdy-css-themer-color-1)!important
+}
+.popover.left > .arrow {
+  border-left-color: var(--nerdy-css-themer-color-8)!important;
+  border-left-color: var(--nerdy-css-themer-color-112)!important
+}
+.popover.left > .arrow:after {
+  border-left-color: var(--nerdy-css-themer-color-1)!important
+}
+.carousel-control {
+  color: var(--nerdy-css-themer-color-1)!important;
+  text-shadow: 0 1px 2px var(--nerdy-css-themer-color-36)!important;
+  background-color: var(--nerdy-css-themer-color-105)!important
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left,var(--nerdy-css-themer-color-35)0,var(--nerdy-css-themer-color-111) 100%)!important;
+  background-image: -o-linear-gradient(left,var(--nerdy-css-themer-color-35)0,var(--nerdy-css-themer-color-111) 100%)!important;
+  background-image: -webkit-gradient(linear,left top,right top,from(var(--nerdy-css-themer-color-35)),to(var(--nerdy-css-themer-color-111)))!important;
+  background-image: linear-gradient(to right,var(--nerdy-css-themer-color-35)0,var(--nerdy-css-themer-color-111) 100%)!important
+}
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left,var(--nerdy-css-themer-color-111)0,var(--nerdy-css-themer-color-35) 100%)!important;
+  background-image: -o-linear-gradient(left,var(--nerdy-css-themer-color-111)0,var(--nerdy-css-themer-color-35) 100%)!important;
+  background-image: -webkit-gradient(linear,left top,right top,from(var(--nerdy-css-themer-color-111)),to(var(--nerdy-css-themer-color-35)))!important;
+  background-image: linear-gradient(to right,var(--nerdy-css-themer-color-111)0,var(--nerdy-css-themer-color-35) 100%)!important
+}
+.carousel-control:focus,
+.carousel-control:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.carousel-indicators li {
+  background-color: var(--nerdy-css-themer-color-105)!important;
+  border: 1px solid var(--nerdy-css-themer-color-1)!important
+}
+.carousel-indicators .active {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.carousel-caption {
+  color: var(--nerdy-css-themer-color-1)!important;
+  text-shadow: 0 1px 2px var(--nerdy-css-themer-color-36)!important
+}
+.fa-border {
+  border: solid .08em var(--nerdy-css-themer-color-49)!important
+}
+.fa-inverse {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-grow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-shrink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-pulse {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-pulse-grow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-pulse-shrink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-push {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-pop {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-in {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-rotate {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-grow-rotate {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-float {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-sink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bob {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-hang {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-skew {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-skew-forward {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-skew-backward {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-vertical {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-horizontal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-to-bottom-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-to-top-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-top {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-bottom {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-wobble-skew {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-buzz {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-buzz-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-fade {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-fade:active,
+.hvr-fade:focus,
+.hvr-fade:hover {
+  background-color: var(--nerdy-css-themer-color-109)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: var(--nerdy-css-themer-color-110)!important
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: var(--nerdy-css-themer-color-110)!important
+  }
+}
+.hvr-back-pulse {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-back-pulse:active,
+.hvr-back-pulse:focus,
+.hvr-back-pulse:hover {
+  background-color: var(--nerdy-css-themer-color-109)!important;
+  background-color: var(--nerdy-css-themer-color-109)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-sweep-to-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-sweep-to-right:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-sweep-to-right:active,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-sweep-to-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-sweep-to-left:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-sweep-to-left:active,
+.hvr-sweep-to-left:focus,
+.hvr-sweep-to-left:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-sweep-to-bottom {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-sweep-to-bottom:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-sweep-to-bottom:active,
+.hvr-sweep-to-bottom:focus,
+.hvr-sweep-to-bottom:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-sweep-to-top {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-sweep-to-top:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-sweep-to-top:active,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-bounce-to-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-to-right:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-bounce-to-right:active,
+.hvr-bounce-to-right:focus,
+.hvr-bounce-to-right:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-bounce-to-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-to-left:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-bounce-to-left:active,
+.hvr-bounce-to-left:focus,
+.hvr-bounce-to-left:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-bounce-to-bottom {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-to-bottom:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-bounce-to-bottom:active,
+.hvr-bounce-to-bottom:focus,
+.hvr-bounce-to-bottom:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-bounce-to-top {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bounce-to-top:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-bounce-to-top:active,
+.hvr-bounce-to-top:focus,
+.hvr-bounce-to-top:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-radial-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-radial-out:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-radial-out:active,
+.hvr-radial-out:focus,
+.hvr-radial-out:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-radial-in {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-radial-in:before {
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-radial-in:active,
+.hvr-radial-in:focus,
+.hvr-radial-in:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-rectangle-in {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-rectangle-in:before {
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-rectangle-in:active,
+.hvr-rectangle-in:focus,
+.hvr-rectangle-in:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-rectangle-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-rectangle-out:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-rectangle-out:active,
+.hvr-rectangle-out:focus,
+.hvr-rectangle-out:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-shutter-in-horizontal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-shutter-in-horizontal:before {
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-shutter-in-horizontal:active,
+.hvr-shutter-in-horizontal:focus,
+.hvr-shutter-in-horizontal:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-shutter-out-horizontal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-shutter-out-horizontal:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-shutter-out-horizontal:active,
+.hvr-shutter-out-horizontal:focus,
+.hvr-shutter-out-horizontal:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-shutter-in-vertical {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-shutter-in-vertical:before {
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-shutter-in-vertical:active,
+.hvr-shutter-in-vertical:focus,
+.hvr-shutter-in-vertical:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-shutter-out-vertical {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important;
+  background: var(--nerdy-css-themer-color-107)!important
+}
+.hvr-shutter-out-vertical:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-shutter-out-vertical:active,
+.hvr-shutter-out-vertical:focus,
+.hvr-shutter-out-vertical:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-border-fade {
+  box-shadow: inset 0 0 0 4px var(--nerdy-css-themer-color-107),0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-border-fade:active,
+.hvr-border-fade:focus,
+.hvr-border-fade:hover {
+  box-shadow: inset 0 0 0 4px var(--nerdy-css-themer-color-109),0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-hollow {
+  box-shadow: inset 0 0 0 4px var(--nerdy-css-themer-color-107),0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-trim {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-trim:before {
+  border: var(--nerdy-css-themer-color-1) solid 4px!important
+}
+.hvr-ripple-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-ripple-out:before {
+  border: var(--nerdy-css-themer-color-107) solid 6px!important
+}
+.hvr-ripple-in {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-ripple-in:before {
+  border: var(--nerdy-css-themer-color-107) solid 4px!important
+}
+.hvr-outline-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-outline-out:before {
+  border: var(--nerdy-css-themer-color-107) solid 4px!important
+}
+.hvr-outline-in {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-outline-in:before {
+  border: var(--nerdy-css-themer-color-107) solid 4px!important
+}
+.hvr-round-corners {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-underline-from-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-underline-from-left:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-underline-from-center {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-underline-from-center:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-underline-from-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-underline-from-right:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-overline-from-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-overline-from-left:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-overline-from-center {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-overline-from-center:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-overline-from-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-overline-from-right:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-reveal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-reveal:before {
+  border-color: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-underline-reveal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-underline-reveal:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-overline-reveal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-overline-reveal:before {
+  background: var(--nerdy-css-themer-color-109)!important
+}
+.hvr-glow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-glow:active,
+.hvr-glow:focus,
+.hvr-glow:hover {
+  box-shadow: 0 0 8px var(--nerdy-css-themer-color-36)!important
+}
+.hvr-shadow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-shadow:active,
+.hvr-shadow:focus,
+.hvr-shadow:hover {
+  box-shadow: 0 10px 10px -10px var(--nerdy-css-themer-color-35)!important
+}
+.hvr-grow-shadow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-grow-shadow:active,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:hover {
+  box-shadow: 0 10px 10px -10px var(--nerdy-css-themer-color-35)!important
+}
+.hvr-box-shadow-outset {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-box-shadow-outset:active,
+.hvr-box-shadow-outset:focus,
+.hvr-box-shadow-outset:hover {
+  box-shadow: 2px 2px 2px var(--nerdy-css-themer-color-36)!important
+}
+.hvr-box-shadow-inset {
+  box-shadow: inset 0 0 0 var(--nerdy-css-themer-color-36),0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-box-shadow-inset:active,
+.hvr-box-shadow-inset:focus,
+.hvr-box-shadow-inset:hover {
+  box-shadow: inset 2px 2px 2px var(--nerdy-css-themer-color-36),0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-float-shadow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-float-shadow:before {
+  background: -webkit-radial-gradient(center,ellipse,var(--nerdy-css-themer-color-108)0,var(--nerdy-css-themer-color-105) 80%)!important;
+  background: radial-gradient(ellipse at center,var(--nerdy-css-themer-color-108)0,var(--nerdy-css-themer-color-105) 80%)!important
+}
+.hvr-shadow-radial {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-shadow-radial:before {
+  background: -webkit-radial-gradient(50% 150%,ellipse,var(--nerdy-css-themer-color-36)0,var(--nerdy-css-themer-color-105) 80%)!important;
+  background: radial-gradient(ellipse at 50% 150%,var(--nerdy-css-themer-color-36)0,var(--nerdy-css-themer-color-105) 80%)!important
+}
+.hvr-shadow-radial:after {
+  background: -webkit-radial-gradient(50% -50%,ellipse,var(--nerdy-css-themer-color-36)0,var(--nerdy-css-themer-color-105) 80%)!important;
+  background: radial-gradient(ellipse at 50% -50%,var(--nerdy-css-themer-color-36)0,var(--nerdy-css-themer-color-105) 80%)!important
+}
+.hvr-bubble-top {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-top:before {
+  border-color: transparent transparent var(--nerdy-css-themer-color-107)!important
+}
+.hvr-bubble-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-right:before {
+  border-color: transparent transparent transparent var(--nerdy-css-themer-color-107)!important
+}
+.hvr-bubble-bottom {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-bottom:before {
+  border-color: var(--nerdy-css-themer-color-107) transparent transparent!important
+}
+.hvr-bubble-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-left:before {
+  border-color: transparent var(--nerdy-css-themer-color-107) transparent transparent!important
+}
+.hvr-bubble-float-top {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-float-top:before {
+  border-color: transparent transparent var(--nerdy-css-themer-color-107)!important
+}
+.hvr-bubble-float-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-float-right:before {
+  border-color: transparent transparent transparent var(--nerdy-css-themer-color-107)!important
+}
+.hvr-bubble-float-bottom {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-float-bottom:before {
+  border-color: var(--nerdy-css-themer-color-107) transparent transparent!important
+}
+.hvr-bubble-float-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-bubble-float-left:before {
+  border-color: transparent var(--nerdy-css-themer-color-107) transparent transparent!important
+}
+.hvr-icon-back {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-forward {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-down {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-up {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-spin {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-drop {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-fade {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-fade:active:before,
+.hvr-icon-fade:focus:before,
+.hvr-icon-fade:hover:before {
+  color: var(--nerdy-css-themer-color-106)!important
+}
+.hvr-icon-float-away {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-sink-away {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-grow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-shrink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-pulse {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-pulse-grow {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-pulse-shrink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-push {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-pop {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-bounce {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-rotate {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-grow-rotate {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-float {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-sink {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-bob {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-hang {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-wobble-horizontal {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-wobble-vertical {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-buzz {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-icon-buzz-out {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-curl-top-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-curl-top-left:before {
+  background: var(--nerdy-css-themer-color-1)!important;
+  background: linear-gradient(135deg,var(--nerdy-css-themer-color-1) 45%,var(--nerdy-css-themer-color-104) 50%,var(--nerdy-css-themer-color-45) 56%,var(--nerdy-css-themer-color-1) 80%)!important;
+  box-shadow: 1px 1px 1px var(--nerdy-css-themer-color-103)!important
+}
+.hvr-curl-top-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-curl-top-right:before {
+  background: var(--nerdy-css-themer-color-1)!important;
+  background: linear-gradient(225deg,var(--nerdy-css-themer-color-1) 45%,var(--nerdy-css-themer-color-104) 50%,var(--nerdy-css-themer-color-45) 56%,var(--nerdy-css-themer-color-1) 80%)!important;
+  box-shadow: -1px 1px 1px var(--nerdy-css-themer-color-103)!important
+}
+.hvr-curl-bottom-right {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-curl-bottom-right:before {
+  background: var(--nerdy-css-themer-color-1)!important;
+  background: linear-gradient(315deg,var(--nerdy-css-themer-color-1) 45%,var(--nerdy-css-themer-color-104) 50%,var(--nerdy-css-themer-color-45) 56%,var(--nerdy-css-themer-color-1) 80%)!important;
+  box-shadow: -1px -1px 1px var(--nerdy-css-themer-color-103)!important
+}
+.hvr-curl-bottom-left {
+  box-shadow: 0 0 1px var(--nerdy-css-themer-color-105)!important
+}
+.hvr-curl-bottom-left:before {
+  background: var(--nerdy-css-themer-color-1)!important;
+  background: linear-gradient(45deg,var(--nerdy-css-themer-color-1) 45%,var(--nerdy-css-themer-color-104) 50%,var(--nerdy-css-themer-color-45) 56%,var(--nerdy-css-themer-color-1) 80%)!important;
+  box-shadow: 1px -1px 1px var(--nerdy-css-themer-color-103)!important
+}
+.form-control::-webkit-input-placeholder {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.form-control:-moz-placeholder {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.form-control::-moz-placeholder {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.form-control:-ms-input-placeholder {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.form-control::-ms-input-placeholder {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.nav-pills > li > a {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.nav-pills > .active {
+  background: var(--nerdy-css-themer-color-49)!important
+}
+.single-title {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-102)!important
+}
+.single-title > h2 {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-12)!important
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  background-color: var(--nerdy-css-themer-color-24)!important;
+  color: var(--nerdy-css-themer-color-12)!important
+}
+body {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+a {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+a:hover {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.image-box h3 a {
+  color: var(--nerdy-css-themer-color-101)!important
+}
+::-moz-selection {
+  background-color: var(--nerdy-css-themer-color-100)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+::selection {
+  background-color: var(--nerdy-css-themer-color-100)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.separator-border-1 {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.badge {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.dropcap-color:first-letter {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.dropcap-bg:first-letter {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.label-primary {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.skin-bg {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.gray-bg {
+  background: var(--nerdy-css-themer-color-99)!important
+}
+.scrollToTop {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.scrollToTop:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+div#preloader {
+  background: var(--nerdy-css-themer-color-1) url(../images/loader.gif) no-repeat center center!important
+}
+.dark-img-bg {
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.separator-border:after {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.heading-style-center.light h2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.heading-style-center.light .separator-border {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.heading-style-center h2 {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.heading-style-center .separator-border {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.left-title h4 {
+  color: var(--nerdy-css-themer-color-53)!important
+}
+.left-title hr {
+  border-color: var(--nerdy-css-themer-color-18)!important
+}
+.left-heading span {
+  color: var(--nerdy-css-themer-color-49)!important
+}
+.top-bar-v1 {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.top-bar-v1 ul li {
+  border-left: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.top-bar-v1 ul li a {
+  color: var(--nerdy-css-themer-color-98)!important
+}
+.top-bar-v1 ul li a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.navbar-headroom .nav-header-right .h-item a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.top-header .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.top-header .navbar-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+.top-header .navbar-nav > .active > a,
+.top-header .navbar-nav > .active > a:focus,
+.top-header .navbar-nav > .active > a:hover,
+.top-header .navbar-nav > .open > a,
+.top-header .navbar-nav > .open > a:focus,
+.top-header .navbar-nav > .open > a:hover {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+.navbar-default {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.header-transparent.shrink.navbar-inverse {
+  background-color: var(--nerdy-css-themer-color-97)!important
+}
+.header-transparent.shrink.navbar-default {
+  background-color: var(--nerdy-css-themer-color-92)!important
+}
+.navbar-default.header-transparent .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-49)!important
+}
+.navbar-default.header-transparent .navbar-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.navbar-default.header-transparent.shrink .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-default.header-transparent.shrink .navbar-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.navbar-default.header-transparent.shrink {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.navbar-default.header-transparent.shrink .h-item a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: var(--nerdy-css-themer-color-49)!important
+}
+.nav-header-right .h-item a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.nav-trigger-fullscreen {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.navbar-default.sticky-header {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.navbar-default.sticky-header .nav-header-right .h-item a {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.navbar-inverse.sticky-header .nav-header-right .h-item a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.top-header.navbar-default .navbar-toggle .icon-bar,
+.top-header.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.center-logo {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.headroom {
+  box-shadow: 0px 1px 3px var(--nerdy-css-themer-color-94)!important
+}
+.dropdown-menu {
+  box-shadow: 0 2px 5px 0 var(--nerdy-css-themer-color-96)!important
+}
+.dropdown-menu.dark-dropdown {
+  background-color: var(--nerdy-css-themer-color-31)!important
+}
+.dropdown-menu.dark-dropdown > li > a {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.dropdown-menu.dark-dropdown > li > a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.dropdown-menu.dark-dropdown .mega-vertical-nav li a {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.dropdown-menu > li > a {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.dropdown-span {
+  color: var(--nerdy-css-themer-color-49)!important
+}
+.dropdown-span:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.navbar-default.header-transparent.shrink .navbar-nav > li > .dropdown-span {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.navbar-default.header-transparent.shrink .navbar-nav > li > .dropdown-span:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.yamm-content h3 {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.yamm-content .mega-vertical-nav > li > a {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.yamm-content .mega-vertical-nav > li > a:focus,
+.yamm-content .mega-vertical-nav > li > a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.dropdown-submenu > a:after {
+  border-left-color: var(--nerdy-css-themer-color-45)!important
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: var(--nerdy-css-themer-color-18)!important
+}
+.search-click {
+  background-color: var(--nerdy-css-themer-color-92)!important;
+  border: 1px solid var(--nerdy-css-themer-color-95)!important
+}
+.search-click form .fa-times {
+  color: var(--nerdy-css-themer-color-64)!important
+}
+@media (max-width:767px) {
+  .navbar-inverse .navbar-nav {
+    background-color: var(--nerdy-css-themer-color-16)!important
+  }
+  .navbar-default .navbar-nav {
+    background-color: var(--nerdy-css-themer-color-1)!important
+  }
+  .navbar-default.header-transparent .navbar-nav > li > a {
+    color: var(--nerdy-css-themer-color-13)!important
+  }
+  .yamm-content h3 {
+    color: var(--nerdy-css-themer-color-49)!important
+  }
+}
+.image-hover-light .overlay {
+  background-color: var(--nerdy-css-themer-color-21)!important
+}
+.image-hover-light .overlay p {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.image-hover-dark .overlay {
+  background-color: var(--nerdy-css-themer-color-91)!important
+}
+.image-hover-dark .overlay span {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.image-hover-dark .overlay p {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.image-hover-dark .overlay p a {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-91)!important
+}
+.image-hover-dark .overlay p a:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.mouse-overlay .overlay {
+  background-color: var(--nerdy-css-themer-color-91)!important
+}
+.mouse-overlay .overlay span {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.mouse-overlay .overlay p {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.mouse-overlay .overlay p a {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-91)!important
+}
+.mouse-overlay .overlay p a:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.fullscreen-cover h1 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.fullscreen-cover p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.bottom-row ul li a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.intro-theme-bg {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+@media (max-width:767px) {
+  .fullscreen-cover h1 {
+    color: var(--nerdy-css-themer-color-1)!important
+  }
+}
+@media (max-width:568px) {
+  .fullscreen-cover h1 {
+    color: var(--nerdy-css-themer-color-1)!important
+  }
+}
+.progress {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.progress .progress-bar {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.skills-bg .skill .skill-name,
+.skills-bg .skill .skill-perc {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.skills-bg .progress .progress-bar {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-3d {
+  border-bottom: 3px solid var(--nerdy-css-themer-color-94)!important
+}
+.btn-default {
+  background-color: var(--nerdy-css-themer-color-49)!important;
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.btn-default:focus,
+.btn-default:hover {
+  background-color: var(--nerdy-css-themer-color-12)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-skin {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.btn-skin:focus,
+.btn-skin:hover {
+  background-color: var(--nerdy-css-themer-color-15)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-dark {
+  background-color: var(--nerdy-css-themer-color-15)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-dark:focus,
+.btn-dark:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-border-dark {
+  border: 2px solid var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.btn-border-dark:focus,
+.btn-border-dark:hover {
+  background-color: var(--nerdy-css-themer-color-13)!important;
+  border-color: var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-border-white {
+  border: 2px solid var(--nerdy-css-themer-color-93)!important;
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-93)!important
+}
+.btn-border-white:focus,
+.btn-border-white:hover {
+  background-color: var(--nerdy-css-themer-color-92)!important;
+  border-color: var(--nerdy-css-themer-color-92)!important;
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.btn-border {
+  border: 2px solid var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.btn-border:focus,
+.btn-border:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-border.btn-hvr:focus,
+.btn-border.btn-hvr:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn-border.btn-hvr.hvr-radial-in:hover,
+.btn-border.btn-hvr.hvr-rectangle-in:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.hvr-bounce-to-bottom:before,
+.hvr-bounce-to-left:before,
+.hvr-bounce-to-right:before,
+.hvr-bounce-to-top:before,
+.hvr-radial-out:before,
+.hvr-rectangle-out:before,
+.hvr-shutter-out-horizontal:before,
+.hvr-shutter-out-vertical:before,
+.hvr-sweep-to-bottom:before,
+.hvr-sweep-to-left:before,
+.hvr-sweep-to-right:before,
+.hvr-sweep-to-top:before {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.hvr-radial-in:before,
+.hvr-rectangle-in:before,
+.hvr-shutter-in-horizontal:before,
+.hvr-shutter-in-vertical:before {
+  background: var(--nerdy-css-themer-color-1)!important
+}
+.hvr-radial-in,
+.hvr-rectangle-in,
+.hvr-shutter-in-horizontal,
+.hvr-shutter-in-vertical {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.hvr-radial-in:hover,
+.hvr-rectangle-in:hover,
+.hvr-shutter-in-horizontal:hover,
+.hvr-shutter-in-vertical:hover {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.breadrumb-transparent h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.breadcrumb-v1 .breadcrumb a {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.breadcrumb-v1.dark-bg {
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.breadcrumb-v1.dark-bg h1,
+.breadcrumb-v1.dark-bg ol li,
+.breadcrumb-v1.dark-bg p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.breadcrumb-v1.b-parllax h1,
+.breadcrumb-v1.b-parllax ol li,
+.breadcrumb-v1.b-parllax p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.live-icon-box {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.live-icon-box:hover span {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.box-style-1 .icon:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.box-style-1.gray-bg {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.box-style-1.border-style {
+  border: 1px solid var(--nerdy-css-themer-color-11)!important
+}
+.box-style-1.hvr-style:hover {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.icon-box-left .icon-left {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.icon-box-left:hover .icon-left {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.light .icon,
+.light h3,
+.light p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.dark-bg {
+  background-color: var(--nerdy-css-themer-color-91)!important
+}
+.process-box h2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.process-box h4 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.process-box p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.icon-box-alt i {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.feature-box i {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.left-icon i {
+  background-color: var(--nerdy-css-themer-color-49)!important
+}
+.tabs-default > li > a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.tabs-default > li > a:focus,
+.tabs-default > li > a:hover {
+  border-bottom: 3px solid var(--nerdy-css-themer-color-12)!important
+}
+.tabs-default li.active a {
+  border-bottom: 3px solid var(--nerdy-css-themer-color-12)!important
+}
+.tabs-default li.active a:focus,
+.tabs-default li.active a:hover {
+  border-bottom: 3px solid var(--nerdy-css-themer-color-12)!important
+}
+.tab-content-default {
+  background: var(--nerdy-css-themer-color-12)!important
+}
+.tabs-left > .nav-tabs > li a {
+  background-color: var(--nerdy-css-themer-color-11)!important;
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.tabs-left > .nav-tabs > li.active a,
+.tabs-left > .nav-tabs > li.active a:focus,
+.tabs-left > .nav-tabs > li.active a:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.tabs-right > .nav-tabs > li a {
+  background-color: var(--nerdy-css-themer-color-11)!important;
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.tabs-right > .nav-tabs > li.active a,
+.tabs-right > .nav-tabs > li.active a:focus,
+.tabs-right > .nav-tabs > li.active a:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.icon-tabs li.active a span {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.icon-tabs span {
+  background-color: var(--nerdy-css-themer-color-90)!important;
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.social-icon.social-gray {
+  color: var(--nerdy-css-themer-color-29)!important;
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.social-icon.social-gray:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.social-icon.social-dark {
+  background-color: var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.social-icon.social-signin {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.social-icon.social-signin > span {
+  border-right: 1px solid var(--nerdy-css-themer-color-89)!important
+}
+.social-icon.social-signin:hover {
+  background-color: var(--nerdy-css-themer-color-35)!important
+}
+.si-colored-facebook,
+.si-facebook:hover {
+  background-color: var(--nerdy-css-themer-color-88)!important
+}
+.si-colored-twitter,
+.si-twitter:hover {
+  background-color: var(--nerdy-css-themer-color-87)!important
+}
+.si-colored-g-plus,
+.si-g-plus:hover {
+  background-color: var(--nerdy-css-themer-color-86)!important
+}
+.si-colored-skype,
+.si-skype:hover {
+  background-color: var(--nerdy-css-themer-color-85)!important
+}
+.si-colored-linkedin,
+.si-linkedin:hover {
+  background-color: var(--nerdy-css-themer-color-84)!important
+}
+.si-colored-pinterest,
+.si-pinterest:hover {
+  background-color: var(--nerdy-css-themer-color-82)!important
+}
+.si-colored-rss,
+.si-rss:hover {
+  background-color: var(--nerdy-css-themer-color-83)!important
+}
+.si-colored-pinterest,
+.si-pinterest:hover {
+  background-color: var(--nerdy-css-themer-color-82)!important
+}
+.si-colored-tumblr,
+.si-tumblr:hover {
+  background-color: var(--nerdy-css-themer-color-81)!important
+}
+.si-colored-vimeo,
+.si-vimeo:hover {
+  background-color: var(--nerdy-css-themer-color-80)!important
+}
+.si-colored-digg,
+.si-digg:hover {
+  background-color: var(--nerdy-css-themer-color-79)!important
+}
+.si-colored-instagram,
+.si-instagram:hover {
+  background-color: var(--nerdy-css-themer-color-78)!important
+}
+.si-colored-flickr,
+.si-flickr:hover {
+  background-color: var(--nerdy-css-themer-color-77)!important
+}
+.si-colored-paypal,
+.si-paypal:hover {
+  background-color: var(--nerdy-css-themer-color-76)!important
+}
+.si-colored-yahoo,
+.si-yahoo:hover {
+  background-color: var(--nerdy-css-themer-color-75)!important
+}
+.si-android:hover,
+.si-colored-android {
+  background-color: var(--nerdy-css-themer-color-74)!important
+}
+.si-appstore:hover,
+.si-colored-appstore {
+  background-color: var(--nerdy-css-themer-color-16)!important
+}
+.si-colored-dropbox,
+.si-dropbox:hover {
+  background-color: var(--nerdy-css-themer-color-73)!important
+}
+.si-colored-dribbble,
+.si-dribbble:hover {
+  background-color: var(--nerdy-css-themer-color-72)!important
+}
+.si-colored-soundcloud,
+.si-soundcloud:hover {
+  background-color: var(--nerdy-css-themer-color-71)!important
+}
+.si-colored-xing,
+.si-xing:hover {
+  background-color: var(--nerdy-css-themer-color-70)!important
+}
+.si-colored-phone,
+.si-phone:hover {
+  background-color: var(--nerdy-css-themer-color-6)!important
+}
+.si-behance:hover,
+.si-colored-behance {
+  background-color: var(--nerdy-css-themer-color-69)!important
+}
+.si-colored-github,
+.si-github:hover {
+  background-color: var(--nerdy-css-themer-color-68)!important
+}
+.si-colored-stumbleupon,
+.si-stumbleupon:hover {
+  background-color: var(--nerdy-css-themer-color-67)!important
+}
+.si-colored-email,
+.si-email:hover {
+  background-color: var(--nerdy-css-themer-color-66)!important
+}
+.si-colored-wordpress,
+.si-wordpress:hover {
+  background-color: var(--nerdy-css-themer-color-65)!important
+}
+.countdown .counts p {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.countdown .counts span {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.countdown.light .counts p,
+.countdown.light .counts span {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.counter-box {
+  border: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.counter-box i {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.counter-box p {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.light-counters .counter-box {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.light-counters .counter-box h2,
+.light-counters .counter-box i,
+.light-counters .counter-box p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.widget h3 {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.widget .tag-list li a {
+  background-color: var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.widget .tag-list li a:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.widget .latest-post a {
+  border-bottom: 1px solid var(--nerdy-css-themer-color-49)!important;
+  color: var(--nerdy-css-themer-color-64)!important
+}
+.widget .latest-post a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.widget .latest-post span {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.widget .left-img li .widget-content h4 a {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+.widget .left-img li .widget-content h4 a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.master-h-mini {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.master-heading {
+  color: var(--nerdy-css-themer-color-63)!important
+}
+.master-sub-text {
+  color: var(--nerdy-css-themer-color-63)!important
+}
+.ms-layer.bold-text-white {
+  color: var(--nerdy-css-themer-color-54)!important
+}
+.ms-layer.thin-text-white {
+  color: var(--nerdy-css-themer-color-54)!important;
+  background: var(--nerdy-css-themer-color-60)!important;
+  text-shadow: -1px 1px var(--nerdy-css-themer-color-16)!important
+}
+.ms-layer.thin-text-black {
+  background: var(--nerdy-css-themer-color-62)!important;
+  text-shadow: -1px 1px var(--nerdy-css-themer-color-61)!important
+}
+.slide-1 .captiontext {
+  color: var(--nerdy-css-themer-color-54)!important;
+  border: solid 2px var(--nerdy-css-themer-color-54)!important;
+  text-shadow: -1px 1px var(--nerdy-css-themer-color-16)!important
+}
+.slide-4 .box {
+  background: var(--nerdy-css-themer-color-60)!important
+}
+.slide-4 .small-text {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.slide-4 .medium-text {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.slide-4 .big-text {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.slide-5 .video-caption {
+  color: var(--nerdy-css-themer-color-54)!important;
+  border: solid 4px var(--nerdy-css-themer-color-54)!important
+}
+.ms-staff-carousel .ms-nav-next,
+.ms-staff-carousel .ms-nav-prev {
+  box-shadow: 0px 1px 0px 0px var(--nerdy-css-themer-color-59)!important
+}
+.ms-staff-carousel .ms-staff-info {
+  color: var(--nerdy-css-themer-color-58)!important
+}
+.ms-staff-carousel .ms-staff-info h4 {
+  color: var(--nerdy-css-themer-color-57)!important
+}
+.ms-staff-carousel .ms-staff-info .email a {
+  color: var(--nerdy-css-themer-color-56)!important
+}
+.ms-staff-carousel.ms-round .ms-slide-bgcont {
+  border: solid 8px var(--nerdy-css-themer-color-55)!important
+}
+.title2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.title2.title-dark {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.title2.title-dark .color-text {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.sub-title2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.sub-title3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn1 {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-54)!important
+}
+.btn1:hover {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.btn2 {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.btn2:hover {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.btn2.dark-button {
+  background: var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.btn2.dark-button:hover {
+  background: var(--nerdy-css-themer-color-53)!important
+}
+.subtitle-dark {
+  color: var(--nerdy-css-themer-color-15)!important
+}
+title-dark {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+title-dark .color-text {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.owl-theme .owl-controls .owl-buttons div {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.owl-theme .owl-controls .owl-page span {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.testi-box {
+  background-color: var(--nerdy-css-themer-color-52)!important
+}
+.testi-box h4 {
+  color: var(--nerdy-css-themer-color-51)!important
+}
+.testi-bg .testimonial-slide h5 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.testi-bg .testimonial-slide p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.flex-direction-nav a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.flex-direction-nav a:before {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.panel > .panel-heading:after {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.panel-colored .panel-heading:after {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.panel-colored .panel-heading a {
+  background-color: var(--nerdy-css-themer-color-18)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.panel-colored .panel-heading a.collapsed {
+  background-color: var(--nerdy-css-themer-color-13)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.panel-simple .panel-heading a {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.panel-simple .panel-heading a.collapsed {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.modal-header span {
+  background-color: var(--nerdy-css-themer-color-50)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+#videoModal .close {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.pagination > li > a {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.cta {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.cta h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.cta p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.cta-gray-bg-boxed {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.cta-gray-bg-full {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.call-to-action.theme-bg {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.call-to-action.theme-bg h3,
+.call-to-action.theme-bg p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.cta-quote p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.price-box.gray-bg {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.price-box.theme-bg {
+  background-color: var(--nerdy-css-themer-color-18)!important
+}
+.price-box.theme-bg .p-title,
+.price-box.theme-bg .price,
+.price-box.theme-bg p,
+.price-box.theme-bg span,
+.price-box.theme-bg ul li {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.grid-post {
+  border: 1px solid var(--nerdy-css-themer-color-49)!important
+}
+.grid-post .grid-post-meta h3 a {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.grid-post .grid-post-meta h3 a:hover {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+.grid-post .grid-post-meta ul li {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.grid-post .grid-post-meta ul li:after {
+  color: var(--nerdy-css-themer-color-7)!important
+}
+.post-full .blog-meta h2 a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.post-full .blog-meta h2 a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.post-full .blog-meta ul li i {
+  color: var(--nerdy-css-themer-color-45)!important
+}
+.share {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.comments span {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.news-flow-box {
+  border-bottom: 2px solid var(--nerdy-css-themer-color-24)!important
+}
+.news-flow-box h2 a {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.news-flow-box h2 a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.news-flow-box:hover {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.timeline:before {
+  background-color: var(--nerdy-css-themer-color-48)!important
+}
+.timeline > li > .timeline-panel {
+  border: 1px solid var(--nerdy-css-themer-color-47)!important;
+  box-shadow: 0 1px 6px var(--nerdy-css-themer-color-46)!important
+}
+.timeline > li > .timeline-panel:before {
+  border-left: 15px solid var(--nerdy-css-themer-color-45)!important;
+  border-right: 0 solid var(--nerdy-css-themer-color-45)!important
+}
+.timeline > li > .timeline-panel:after {
+  border-left: 14px solid var(--nerdy-css-themer-color-1)!important;
+  border-right: 0 solid var(--nerdy-css-themer-color-1)!important
+}
+.timeline > li > .timeline-badge {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.timeline-badge > a {
+  color: var(--nerdy-css-themer-color-44)!important
+}
+.timeline-badge a:hover {
+  color: var(--nerdy-css-themer-color-16)!important
+}
+.timeline-footer {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  border-top: 1px solid var(--nerdy-css-themer-color-43)!important
+}
+.tooltip.top .tooltip-arrow {
+  border-top: 0 solid var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.left .tooltip-arrow {
+  border-top: 0 solid var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.bottom .tooltip-arrow {
+  border-top: 0 solid var(--nerdy-css-themer-color-16)!important
+}
+.tooltip.right .tooltip-arrow {
+  border-top: 0 solid var(--nerdy-css-themer-color-16)!important
+}
+.tooltip-inner {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background-color: var(--nerdy-css-themer-color-42)!important
+}
+.half-image-section {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.overlay {
+  background: var(--nerdy-css-themer-color-41)!important
+}
+.overlay .overlay-close {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.overlay ul li a,
+.overlay ul li a:focus,
+.overlay ul li a:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.team-style-1 img {
+  box-shadow: 1px 1px 5px var(--nerdy-css-themer-color-30)!important
+}
+.team-style-1 span {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.team-style-2 .team-overlay {
+  background: -moz-linear-gradient(-45deg,transparent 2%,var(--nerdy-css-themer-color-39) 77%,var(--nerdy-css-themer-color-40) 100%)!important;
+  background: -webkit-linear-gradient(-45deg,transparent 2%,var(--nerdy-css-themer-color-39) 77%,var(--nerdy-css-themer-color-40) 100%)!important;
+  background: linear-gradient(135deg,transparent 2%,var(--nerdy-css-themer-color-39) 77%,var(--nerdy-css-themer-color-40) 100%)!important
+}
+.team-style-2 .team-overlay p span {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.team-style-2 .team-overlay p em {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.team-flip .back {
+  background: var(--nerdy-css-themer-color-11)!important
+}
+.team-flip .back h4 {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.team-flip .back span {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.form-control {
+  box-shadow: inset 0 1px 1px var(--nerdy-css-themer-color-38)!important;
+  background: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-7)!important
+}
+.has-error .form-control {
+  border: 1px solid var(--nerdy-css-themer-color-9)!important
+}
+#captcha {
+  border: 2px solid var(--nerdy-css-themer-color-11)!important
+}
+#emailAlert.alert-success {
+  background-color: var(--nerdy-css-themer-color-37)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.flat-btn {
+  color: var(--nerdy-css-themer-color-1)!important;
+  border: 1px solid var(--nerdy-css-themer-color-1)!important
+}
+.flat-btn:focus,
+.flat-btn:hover {
+  color: var(--nerdy-css-themer-color-13)!important;
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.text-white {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.video-section .bottom-row li a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.video-section .overlay {
+  background-color: var(--nerdy-css-themer-color-36)!important
+}
+.text-rotator h2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.text-rotator .flexslider h2 {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.video-play {
+  background-color: var(--nerdy-css-themer-color-1)!important
+}
+.video-text .video-content {
+  background-color: var(--nerdy-css-themer-color-35)!important
+}
+.video-text .video-content .video-inner h5 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.video-text .video-content .video-inner h2 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.video-text .video-content .video-inner p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active,
+.cbp-l-project-details-visit {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.cbp-l-filters-work .cbp-filter-item:hover {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.footer {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.footer p {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.footer-v1 {
+  background-color: var(--nerdy-css-themer-color-34)!important
+}
+.footer-v1 h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v1 ul li a {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.footer-v1 ul li a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.footer-v1 .footer-bottom {
+  border-top: 1px solid var(--nerdy-css-themer-color-33)!important
+}
+.footer-v1 .footer-bottom span {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.footer-v1 .footer-bottom i {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.social-text a {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.social-text a:hover {
+  color: var(--nerdy-css-themer-color-18)!important
+}
+.footer-v2 {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.footer-v3 {
+  background-color: var(--nerdy-css-themer-color-32)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v3 a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v3 h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v3 .latest-post-footer li .post-body h4 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v3 .latest-post-footer li .post-body span {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.footer-v4 {
+  background-color: var(--nerdy-css-themer-color-31)!important
+}
+.footer-v4 h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v4 .form-control {
+  background-color: var(--nerdy-css-themer-color-30)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.footer-v4 .footer-bottom {
+  background-color: var(--nerdy-css-themer-color-13)!important
+}
+.footer-v4 .footer-bottom span {
+  color: var(--nerdy-css-themer-color-29)!important
+}
+.footer-v5 {
+  background-color: var(--nerdy-css-themer-color-11)!important
+}
+.font-box .font_awesome a {
+  color: var(--nerdy-css-themer-color-28)!important
+}
+.font-box .font_awesome a i {
+  color: var(--nerdy-css-themer-color-27)!important
+}
+.et-examples .et-box {
+  border: 1px solid var(--nerdy-css-themer-color-26)!important
+}
+.et-examples .et-box > span {
+  border-right: 1px solid var(--nerdy-css-themer-color-25)!important
+}
+.error-404 i {
+  color: var(--nerdy-css-themer-color-11)!important
+}
+.pattern-back h2,
+.pattern-back p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.photography-banner .flex-direction-nav a:before {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.photography-banner .photography-bannertext h1,
+.photography-banner .photography-bannertext p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.photography-img .img-overlay a {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.photography-img .img-overlay a h4 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.newsletter-photography {
+  background-color: var(--nerdy-css-themer-color-24)!important
+}
+.newsletter-photography .form-control {
+  background: var(--nerdy-css-themer-color-1)!important
+}
+.newsletter-photography .error {
+  border-color: var(--nerdy-css-themer-color-14)!important;
+  color: var(--nerdy-css-themer-color-14)!important
+}
+.newsletter-photography .success {
+  color: var(--nerdy-css-themer-color-23)!important;
+  border-color: var(--nerdy-css-themer-color-23)!important
+}
+.parallax-white-bg:before {
+  background-color: var(--nerdy-css-themer-color-22)!important
+}
+.parallax-white-bg-2:before {
+  background-color: var(--nerdy-css-themer-color-21)!important
+}
+.site-welcome h1,
+.site-welcome p {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.demo-box {
+  box-shadow: 0px 0px 20px var(--nerdy-css-themer-color-20)!important
+}
+.demo-box span {
+  color: var(--nerdy-css-themer-color-1)!important;
+  background: var(--nerdy-css-themer-color-18)!important;
+  box-shadow: 0px 10px 30px var(--nerdy-css-themer-color-19)!important
+}
+.demo-box:hover {
+  box-shadow: 0px 10px 30px var(--nerdy-css-themer-color-19)!important
+}
+.cta-demo {
+  background: var(--nerdy-css-themer-color-18)!important
+}
+.cta-demo h3 {
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.acd-heading a {
+  color: var(--nerdy-css-themer-color-17)!important
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: var(--nerdy-css-themer-color-12)!important;
+  border-color: var(--nerdy-css-themer-color-12)!important
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+.pagination > li > a {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+#home-page-tabs-content .tab-pane .btn-default {
+  background-color: var(--nerdy-css-themer-color-1)!important;
+  color: var(--nerdy-css-themer-color-16)!important
+}
+#home-page-tabs-content .tab-pane .btn-default:focus,
+#home-page-tabs-content .tab-pane .btn-default:hover {
+  background-color: var(--nerdy-css-themer-color-15)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.error,
+.has-error {
+  border-color: var(--nerdy-css-themer-color-14)!important;
+  color: var(--nerdy-css-themer-color-14)!important
+}
+.menu-sitemap li a {
+  color: var(--nerdy-css-themer-color-13)!important
+}
+.menu-sitemap li a:hover {
+  color: var(--nerdy-css-themer-color-12)!important
+}
+.loader {
+  border: 7px solid var(--nerdy-css-themer-color-11)!important;
+  border-top: 7px solid var(--nerdy-css-themer-color-10)!important
+}
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single {
+  border: 1px solid var(--nerdy-css-themer-color-5)!important
+}
+.has-error .select2-container--default .select2-selection--single,
+.has-error .select2-selection .select2-selection--single {
+  border: 1px solid var(--nerdy-css-themer-color-9)!important
+}
+.select2-container--default.select2-container--open {
+  border-color: var(--nerdy-css-themer-color-4)!important
+}
+.select2-dropdown {
+  border: 1px solid var(--nerdy-css-themer-color-5)!important
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: var(--nerdy-css-themer-color-4)!important
+}
+.select2-dropdown .select2-search__field,
+.select2-search--inline .select2-search__field {
+  border: 1px solid var(--nerdy-css-themer-color-5)!important
+}
+.select2-dropdown .select2-search__field:focus,
+.select2-search--inline .select2-search__field:focus {
+  border: 1px solid var(--nerdy-css-themer-color-4)!important
+}
+.select2-container--default .select2-results__option[aria-disabled=true] {
+  color: var(--nerdy-css-themer-color-8)!important
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: var(--nerdy-css-themer-color-7)!important
+}
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[aria-selected=true]:hover {
+  color: var(--nerdy-css-themer-color-6)!important
+}
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid var(--nerdy-css-themer-color-5)!important
+}
+.select2-container--default .select2-selection--multiple:focus {
+  border-color: var(--nerdy-css-themer-color-4)!important
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: var(--nerdy-css-themer-color-5)!important
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: var(--nerdy-css-themer-color-4)!important;
+  border-color: var(--nerdy-css-themer-color-3)!important;
+  color: var(--nerdy-css-themer-color-1)!important
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: var(--nerdy-css-themer-color-2)!important
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: var(--nerdy-css-themer-color-1)!important
+}

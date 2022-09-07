@@ -26,7 +26,18 @@ export const colorRegex = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-
 export const colorRegexG = /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\))/gi;
 
 export const minificationOptions = {
-    level: 1,
+    level: {
+        1: {
+            tidyAtRules: false,
+            tidyBlockScopes: false,
+        }
+    },
+    format: {
+        breaks: {
+          afterComment: 2
+        },
+        semicolonAfterLastProperty: true
+    },
     compatibility: {
         colors: {
             hexAlpha: true,
