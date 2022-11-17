@@ -1,4 +1,4 @@
-import {readFileSync, writeFileSync} from "fs";
+import {readFileSync, writeFileSync, existsSync } from "fs";
 import { emptyDirSync } from "fs-extra";
 import { performance } from "perf_hooks";
 import NerdyCSSThemer from "../index.js";
@@ -7,8 +7,13 @@ const encoding = 'utf8';
 
 function runTest(sampleName, options) {
     console.log(`${sampleName}: Processing`);
+    const rootFileName = `./test/samples/${sampleName}.css`;
+    if (!existsSync(rootFileName)) {
+        console.log(`File ${rootFileName} does not exist. Skipping.`)
+        return;
+    }
     const startTime = performance.now();
-    const oldCSS = readFileSync(`./test/samples/${sampleName}.css`, `utf-8`);
+    const oldCSS = readFileSync(rootFileName, `utf-8`);
     const newCSS = NerdyCSSThemer(oldCSS, {
         beautify: true,
         astHandler: (oldAST, newAST) => {
@@ -28,3 +33,4 @@ function runTest(sampleName, options) {
 emptyDirSync('./test/out');
 runTest('sampleSmall');
 runTest('sampleBig');
+runTest('bitbucket');
